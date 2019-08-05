@@ -27,5 +27,21 @@ def using_concat(a, b)
 end
 
 def using_insert(a, e)
-  a.insert
+  a.insert(4, e)
+end
+
+def using_uniq(a)
+  a.uniq 
+end
+
+def using_flatten(a)
+  a.flatten 
+end
+
+def using_delete(a,s)
+  a.delete(s)
+end
+
+def using_delete_at(a, i)
+  a.delete
   
